@@ -6,7 +6,7 @@ name: jd_fruit东东农场
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 16,22,4,10 * * *'
+    - cron: '5 21,4,13 * * *'
   watch:
     types: started
   repository_dispatch:
