@@ -6,7 +6,7 @@ name: 合集（排行榜小屋逛首页商店）
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 15 * * *'
+    - cron: '10 21 * * *'
   watch:
     types: started
   repository_dispatch:
