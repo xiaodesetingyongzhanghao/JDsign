@@ -6,7 +6,7 @@ name: 20210512jd_speed_red急速版红包
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 16 * * *'
+    - cron: '5 0 * * *'
   repository_dispatch:
     types: jd_speed_red
 jobs:
